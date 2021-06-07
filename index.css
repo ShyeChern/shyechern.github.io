@@ -6,19 +6,29 @@ body {
   background-color: #f1f1f1;
 }
 
-#main {
+.main {
   max-width: 1400px;
 }
 
-#name {
+.name {
   position: absolute;
   left: 30px;
   bottom: 20px;
   text-shadow: 0px 0px 5px black;
+  color:#ffffff
 }
 
 i {
   color: #3788da;
+}
+
+.nav-bg{
+  background-color: #3788da18;
+}
+
+/* Overwrite bootstrap color */
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: #3788da !important;
 }
 
 .barBackground {
