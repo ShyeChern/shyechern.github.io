@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shye Chern Lim</title>
-  <link rel="icon" href="shyechern.jpg" type="image/jpg">
+  <link rel="icon" href="img/shyechern.jpg" type="image/jpg">
   <link rel="stylesheet" type="text/css" href="index.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
@@ -21,7 +21,7 @@
       <div class="col-md-4">
         <!-- Profile Image -->
         <div class="container bg-white p-0 position-relative">
-          <img src="shyechern.jpg" alt="profile-image" class="img-fluid">
+          <img src="img/shyechern.jpg" alt="profile-image" class="img-fluid">
           <h2 class="name">Lim Shye Chern</h2>
         </div>
 
@@ -116,19 +116,19 @@
         <!-- Info -->
         <ul class="nav nav-pills nav-fill sticky-top nav-bg">
           <li class="nav-item">
-            <a class="nav-link active" data-toggle="pill" href="#pills-experience">Experience</a>
+            <a class="nav-link active" data-toggle="pill" href="#pills-experiences">Experiences</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-toggle="pill" href="#pills-demo">Demo</a>
+            <a class="nav-link" data-toggle="pill" href="#pills-projects">Projects</a>
           </li>
         </ul>
         <div class="tab-content">
-          <div class="tab-pane fade show active" id="pills-experience">
+          <div class="tab-pane fade show active" id="pills-experiences">
             <p>Loading...</p>
             <!-- Load from info.html -->
           </div>
 
-          <div class="tab-pane fade" id="pills-demo">
+          <div class="tab-pane fade" id="pills-projects">
             <p>Loading...</p>
             <!-- Load from app.html -->
           </div>
@@ -149,8 +149,8 @@
     crossorigin="anonymous"></script>
   <script>
     $(function () {
-      $("#pills-demo").load("demo.html");
-      $("#pills-experience").load("experience.html");
+      $("#pills-projects").load("projects.html");
+      $("#pills-experiences").load("experiences.html");
       $("footer").load("footer.html");
     });
   </script>
