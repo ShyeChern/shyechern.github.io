@@ -1,5 +1,11 @@
-h1, h2, h3, h4, h5, h6, p {
-  font-family: "Roboto", sans-serif
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -15,19 +21,20 @@ body {
   left: 30px;
   bottom: 20px;
   text-shadow: 0px 0px 5px black;
-  color:#ffffff
+  color: #ffffff;
 }
 
 i {
   color: #3788da;
 }
 
-.nav-bg{
+.nav-bg {
   background-color: #e8f4ff;
 }
 
 /* Overwrite bootstrap color */
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
   background-color: #3788da !important;
 }
 
@@ -37,6 +44,10 @@ i {
 
 .bar {
   background-color: #3788da;
+}
+
+.cert > li {
+  padding-bottom: 5px;
 }
 
 footer {
