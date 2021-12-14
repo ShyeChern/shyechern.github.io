@@ -128,17 +128,38 @@
     <h4><i class="fa fa-fw fa-certificate fa-lg mr-3" aria-hidden="true"></i>Certificate</h4>
     <hr />
     <ul class="cert">
-      <li><a href="img/cert/Business Friendly Excel Automation (Formula + MacroVBA).pdf" target="_blank">Business
-          Friendly Excel Automation (Formula + MacroVBA).pdf</a></li>
       <li><a href="img/cert/Master Electron Desktop Apps with HTML, JavaScript and CSS.pdf" target="_blank">Master
-          Electron Desktop Apps with HTML, JavaScript and CSS.pdf</a></li>
-      <li><a href="img/cert/MTA Windows Server 2016 Administration Fundamentals 98 365.pdf" target="_blank">MTA Windows
-          Server 2016 Administration Fundamentals 98 365.pdf</a></li>
+          Electron Desktop Apps with HTML, JavaScript and CSS</a></li>
       <li><a href="img/cert/NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno).pdf" target="_blank">NodeJS -
-          The Complete Guide (MVC, REST APIs, GraphQL, Deno).pdf</a></li>
-      <li><a href="img/cert/Oracle Java Course Certification.pdf" target="_blank">Oracle Java Course
-          Certification.pdf</a></li>
+          The Complete Guide (MVC, REST APIs, GraphQL, Deno)</a></li>
+      <li><a href="img/cert/Oracle SQL Performance Tuning Masterclass.pdf" target="_blank">Oracle SQL Performance
+          Tuning Masterclass</a></li>
+      <li><a href="img/cert/Understanding TypeScript.pdf" target="_blank">Understanding TypeScript</a></li>
+      <div class="collapse" id="more-cert">
+        <hr />
+        <li><a href="img/cert/CertificateOfCompletion_Advanced SQL for Query Tuning and Performance Optimization.pdf"
+            target="_blank">Advanced SQL for Query Tuning and Performance Optimization</a></li>
+        <li><a href="img/cert/Business Friendly Excel Automation (Formula + MacroVBA).pdf" target="_blank">Business
+            Friendly Excel Automation (Formula + MacroVBA)</a></li>
+        <li><a href="img/cert/CertificateOfCompletion_Docker for Developers.pdf" target="_blank">Docker for
+            Developers</a>
+        </li>
+        <li><a href="img/cert/MTA Windows Server 2016 Administration Fundamentals 98 365.pdf" target="_blank">MTA
+            Windows
+            Server 2016 Administration Fundamentals 98 365</a></li>
+        <li><a href="img/cert/Oracle Java Course Certification.pdf" target="_blank">Oracle Java Course
+            Certification.pdf</a></li>
+      </div>
     </ul>
+    <a class="nav-link nav-bg" data-toggle="collapse" href="#more-cert"
+      onclick="this.innerHTML = this.innerHTML.includes('More')? 'Less Cert...' : 'More Cert...' ">
+      More Cert...
+    </a>
   </div>
 </div>
 <!-- End Certificate -->
+<script>
+  $(function () {
+    $(".more-cert").show();
+  });
+</script>
